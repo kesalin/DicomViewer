@@ -3,7 +3,9 @@
 //  DicomViewer
 //
 //  Created by LuoZhaohui on 12/30/11.
-//  Copyright (c) 2011 United-Imaging. All rights reserved.
+//  Copyright 2011 LuoZhaohui. All rights reserved.
+//  Contact:    kesalin@gmail.com
+//              http://blog.csdn.net/kesalin
 //
 
 #import "KSAppDelegate.h"

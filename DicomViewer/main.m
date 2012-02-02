@@ -3,7 +3,7 @@
 //  DicomViewer
 //
 //  Created by LuoZhaohui on 12/30/11.
-//  Copyright (c) 2011 United-Imaging. All rights reserved.
+//  Copyright (c) 2011 kesalin@gmail.com. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -16,6 +16,11 @@
 		E3AF4A2214AD90C100158E33 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AF4A2014AD90C100158E33 /* MainStoryboard_iPhone.storyboard */; };
 		E3AF4A2514AD90C100158E33 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AF4A2314AD90C100158E33 /* MainStoryboard_iPad.storyboard */; };
 		E3AF4A2814AD90C100158E33 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AF4A2714AD90C100158E33 /* KSViewController.m */; };
+		E3AF4A4414AD944C00158E33 /* test.dcm in Resources */ = {isa = PBXBuildFile; fileRef = E3AF4A4314AD944C00158E33 /* test.dcm */; };
+		E3AF4A5514AD953A00158E33 /* DicomDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3AF4A4E14AD953A00158E33 /* DicomDictionary.plist */; };
+		E3AF4A5614AD953A00158E33 /* KSDicomDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3AF4A5114AD953A00158E33 /* KSDicomDecoder.mm */; };
+		E3AF4A5714AD953A00158E33 /* KSDicomDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AF4A5314AD953A00158E33 /* KSDicomDictionary.m */; };
+		E3AF4A5814AD953A00158E33 /* KSDicom2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AF4A5414AD953A00158E33 /* KSDicom2DView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +28,24 @@
 		E3AF4A0E14AD90C100158E33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E3AF4A1014AD90C100158E33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E3AF4A1214AD90C100158E33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E3AF4A1614AD90C100158E33 /* DicomViewer-Info.plist */ = {isa = PBXFileReference; path = "DicomViewer-Info.plist"; sourceTree = "<group>"; };
+		E3AF4A1614AD90C100158E33 /* DicomViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DicomViewer-Info.plist"; sourceTree = "<group>"; };
 		E3AF4A1814AD90C100158E33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3AF4A1A14AD90C100158E33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E3AF4A1C14AD90C100158E33 /* DicomViewer-Prefix.pch */ = {isa = PBXFileReference; path = "DicomViewer-Prefix.pch"; sourceTree = "<group>"; };
-		E3AF4A1D14AD90C100158E33 /* KSAppDelegate.h */ = {isa = PBXFileReference; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		E3AF4A1C14AD90C100158E33 /* DicomViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DicomViewer-Prefix.pch"; sourceTree = "<group>"; };
+		E3AF4A1D14AD90C100158E33 /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
 		E3AF4A1E14AD90C100158E33 /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
 		E3AF4A2114AD90C100158E33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		E3AF4A2414AD90C100158E33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		E3AF4A2614AD90C100158E33 /* KSViewController.h */ = {isa = PBXFileReference; path = KSViewController.h; sourceTree = "<group>"; };
+		E3AF4A2614AD90C100158E33 /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
 		E3AF4A2714AD90C100158E33 /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		E3AF4A4314AD944C00158E33 /* test.dcm */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.dcm; path = Resources/test.dcm; sourceTree = "<group>"; };
+		E3AF4A4E14AD953A00158E33 /* DicomDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DicomDictionary.plist; path = Dicom/DicomDictionary.plist; sourceTree = "<group>"; };
+		E3AF4A4F14AD953A00158E33 /* KSDicom2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSDicom2DView.h; path = Dicom/KSDicom2DView.h; sourceTree = "<group>"; };
+		E3AF4A5014AD953A00158E33 /* KSDicomDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSDicomDecoder.h; path = Dicom/KSDicomDecoder.h; sourceTree = "<group>"; };
+		E3AF4A5114AD953A00158E33 /* KSDicomDecoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = KSDicomDecoder.mm; path = Dicom/KSDicomDecoder.mm; sourceTree = "<group>"; };
+		E3AF4A5214AD953A00158E33 /* KSDicomDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSDicomDictionary.h; path = Dicom/KSDicomDictionary.h; sourceTree = "<group>"; };
+		E3AF4A5314AD953A00158E33 /* KSDicomDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSDicomDictionary.m; path = Dicom/KSDicomDictionary.m; sourceTree = "<group>"; };
+		E3AF4A5414AD953A00158E33 /* KSDicom2DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSDicom2DView.m; path = Dicom/KSDicom2DView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +92,8 @@
 		E3AF4A1414AD90C100158E33 /* DicomViewer */ = {
 			isa = PBXGroup;
 			children = (
-				E3AF4A1D14AD90C100158E33 /* KSAppDelegate.h */,
-				E3AF4A1E14AD90C100158E33 /* KSAppDelegate.m */,
-				E3AF4A2014AD90C100158E33 /* MainStoryboard_iPhone.storyboard */,
-				E3AF4A2314AD90C100158E33 /* MainStoryboard_iPad.storyboard */,
-				E3AF4A2614AD90C100158E33 /* KSViewController.h */,
-				E3AF4A2714AD90C100158E33 /* KSViewController.m */,
+				E3AF4A2F14AD90D000158E33 /* Classes */,
+				E3AF4A2E14AD90C600158E33 /* Resources */,
 				E3AF4A1514AD90C100158E33 /* Supporting Files */,
 			);
 			path = DicomViewer;
@@ -99,6 +108,74 @@
 				E3AF4A1C14AD90C100158E33 /* DicomViewer-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3AF4A2E14AD90C600158E33 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF4A4214AD939200158E33 /* DicomRes */,
+				E3AF4A3E14AD920B00158E33 /* Nibs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E3AF4A2F14AD90D000158E33 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF4A3214AD913C00158E33 /* Dicom */,
+				E3AF4A3114AD911100158E33 /* Controller */,
+				E3AF4A3014AD910500158E33 /* Misc */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E3AF4A3014AD910500158E33 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF4A1D14AD90C100158E33 /* KSAppDelegate.h */,
+				E3AF4A1E14AD90C100158E33 /* KSAppDelegate.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		E3AF4A3114AD911100158E33 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF4A2614AD90C100158E33 /* KSViewController.h */,
+				E3AF4A2714AD90C100158E33 /* KSViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E3AF4A3214AD913C00158E33 /* Dicom */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF4A4E14AD953A00158E33 /* DicomDictionary.plist */,
+				E3AF4A5014AD953A00158E33 /* KSDicomDecoder.h */,
+				E3AF4A5114AD953A00158E33 /* KSDicomDecoder.mm */,
+				E3AF4A5214AD953A00158E33 /* KSDicomDictionary.h */,
+				E3AF4A5314AD953A00158E33 /* KSDicomDictionary.m */,
+				E3AF4A4F14AD953A00158E33 /* KSDicom2DView.h */,
+				E3AF4A5414AD953A00158E33 /* KSDicom2DView.m */,
+			);
+			name = Dicom;
+			sourceTree = "<group>";
+		};
+		E3AF4A3E14AD920B00158E33 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF4A2014AD90C100158E33 /* MainStoryboard_iPhone.storyboard */,
+				E3AF4A2314AD90C100158E33 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		E3AF4A4214AD939200158E33 /* DicomRes */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF4A4314AD944C00158E33 /* test.dcm */,
+			);
+			name = DicomRes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +232,8 @@
 				E3AF4A1914AD90C100158E33 /* InfoPlist.strings in Resources */,
 				E3AF4A2214AD90C100158E33 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E3AF4A2514AD90C100158E33 /* MainStoryboard_iPad.storyboard in Resources */,
+				E3AF4A4414AD944C00158E33 /* test.dcm in Resources */,
+				E3AF4A5514AD953A00158E33 /* DicomDictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +247,9 @@
 				E3AF4A1B14AD90C100158E33 /* main.m in Sources */,
 				E3AF4A1F14AD90C100158E33 /* KSAppDelegate.m in Sources */,
 				E3AF4A2814AD90C100158E33 /* KSViewController.m in Sources */,
+				E3AF4A5614AD953A00158E33 /* KSDicomDecoder.mm in Sources */,
+				E3AF4A5714AD953A00158E33 /* KSDicomDictionary.m in Sources */,
+				E3AF4A5814AD953A00158E33 /* KSDicom2DView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
