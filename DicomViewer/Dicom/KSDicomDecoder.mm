@@ -34,7 +34,8 @@ OB = 0x4F42,
 OW = 0x4F57,
 SQ = 0x5351,
 UN = 0x554E,
-QQ = 0x3F3F;
+QQ = 0x3F3F,
+RT = 0x5254;
 
 const int IMPLICIT_VR               = 0x2D2D; // '--'
 const int ID_OFFSET                 = 128;  //location of "DICM"
@@ -398,6 +399,7 @@ const int ID_OFFSET                 = 128;  //location of "DICM"
         case UL:
         case US:
         case QQ:
+        case RT:
             // Explicit vr with 16-bit length
             //
             if (littleEndian)
